@@ -8,29 +8,16 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from prompts import dimension_extraction_prompt
 from utils import deepseek_chat
-from Brief_Dimension_Generation.briefs import (
-    abs_china,
-    ballantine_poland, 
-    Abs_Valentine,
-    Codigo,
-    ABS_OCEAN_SPRAY,
-    Oaken_Glow,
-    ABS_PRIDE
-)
 
 # Import the new gap filling functionality
 from Brief_Gap_Filling.utils import main as gap_filling_main, gap_fill_with_evaluation
 
-# Available briefs mapping
-AVAILABLE_BRIEFS = {
-    'abs_china': abs_china,
-    'ballantine_poland': ballantine_poland,
-    'abs_valentine': Abs_Valentine,
-    'codigo': Codigo,
-    'abs_ocean_spray': ABS_OCEAN_SPRAY,
-    'oaken_glow': Oaken_Glow,
-    'abs_pride': ABS_PRIDE
-}
+# Import document parser for reading actual brief files
+from Brief_Dimension_Generation.document_parser import (
+    get_available_brief_files,
+    load_brief_content,
+    list_available_briefs
+)
 
 # Standard dimension list for gap filling
 STANDARD_DIMENSIONS = [
@@ -91,9 +78,9 @@ def process_briefs(brief_names: List[str]) -> Dict[str, Any]:
         raise ValueError("brief_names list cannot be empty")
     
     # Validate brief names
-    invalid_briefs = [name for name in brief_names if name not in AVAILABLE_BRIEFS]
+    invalid_briefs = [name for name in brief_names if name not in get_available_brief_files()]
     if invalid_briefs:
-        raise ValueError(f"Invalid brief names: {invalid_briefs}. Available: {list(AVAILABLE_BRIEFS.keys())}")
+        raise ValueError(f"Invalid brief names: {invalid_briefs}. Available: {get_available_brief_files()}")
     
     print(f"Processing {len(brief_names)} briefs: {brief_names}")
     
@@ -111,7 +98,7 @@ def process_briefs(brief_names: List[str]) -> Dict[str, Any]:
     
     # Process each brief
     for brief_name in brief_names:
-        brief_content = AVAILABLE_BRIEFS[brief_name]
+        brief_content = load_brief_content(brief_name)
         dimensions = extract_dimensions_from_brief(brief_name, brief_content)
         
         campaign_dict['briefs'][brief_name] = {
@@ -196,14 +183,6 @@ def save_results(campaign_dict: Dict[str, Any], output_filename: str = None) -> 
     print(f"\nResults saved to: {output_filename}")
     return output_filename
 
-def list_available_briefs() -> None:
-    """
-    Display all available brief names
-    """
-    print("Available brief names:")
-    for brief_name in AVAILABLE_BRIEFS.keys():
-        print(f"  • {brief_name}")
-
 def main(brief_names: List[str]) -> Dict[str, Any]:
     """
     Main function to extract dimensions from specified briefs
@@ -245,7 +224,7 @@ def gap_fill_brief(brief_name: str,
     Use gap filling to extract and fill dimensions for a specific brief (Tarik's distinct words approach)
     
     Args:
-        brief_name: Name of the brief from AVAILABLE_BRIEFS
+        brief_name: Name of the brief from get_available_brief_files()
         dimension_list: List of dimensions to extract (default: STANDARD_DIMENSIONS)
         brandworld_file_path: Path to brandworld file (distinct words or legacy analysis)
         use_distinct_words: Whether to use Tarik's distinct words approach (default: True)
@@ -253,8 +232,8 @@ def gap_fill_brief(brief_name: str,
     Returns:
         Dictionary containing gap-filled results
     """
-    if brief_name not in AVAILABLE_BRIEFS:
-        raise ValueError(f"Brief '{brief_name}' not found. Available: {list(AVAILABLE_BRIEFS.keys())}")
+    if brief_name not in get_available_brief_files():
+        raise ValueError(f"Brief '{brief_name}' not found. Available: {get_available_brief_files()}")
     
     if dimension_list is None:
         dimension_list = STANDARD_DIMENSIONS
@@ -263,7 +242,7 @@ def gap_fill_brief(brief_name: str,
         # Default to using Tarik's distinct words approach with BALLANTINES data
         brandworld_file_path = "Brand_World/BALLANTINES-IBP-7_distinct_words.json"
     
-    brief_content = AVAILABLE_BRIEFS[brief_name]
+    brief_content = load_brief_content(brief_name)
     
     print(f"\n🔄 Gap Filling Brief: {brief_name}")
     print(f"📋 Brief length: {len(brief_content)} characters")
@@ -424,7 +403,7 @@ def gap_fill_brief_with_evaluation(brief_name: str,
     Use enhanced gap filling with evaluation to create and rank multiple versions
     
     Args:
-        brief_name: Name of the brief from AVAILABLE_BRIEFS
+        brief_name: Name of the brief from get_available_brief_files()
         dimension_list: List of dimensions to extract (default: STANDARD_DIMENSIONS)
         brandworld_analysis_path: Path to brandworld analysis file
         n_versions: Number of versions to generate and evaluate
@@ -432,8 +411,8 @@ def gap_fill_brief_with_evaluation(brief_name: str,
     Returns:
         Dictionary containing comprehensive evaluation results
     """
-    if brief_name not in AVAILABLE_BRIEFS:
-        raise ValueError(f"Brief '{brief_name}' not found. Available: {list(AVAILABLE_BRIEFS.keys())}")
+    if brief_name not in get_available_brief_files():
+        raise ValueError(f"Brief '{brief_name}' not found. Available: {get_available_brief_files()}")
     
     if dimension_list is None:
         dimension_list = STANDARD_DIMENSIONS
@@ -441,7 +420,7 @@ def gap_fill_brief_with_evaluation(brief_name: str,
     if brandworld_analysis_path is None:
         brandworld_analysis_path = "Brand_World/Skrewball Brand World_analysis.json"
     
-    brief_content = AVAILABLE_BRIEFS[brief_name]
+    brief_content = load_brief_content(brief_name)
     
     print(f"\n🔄 Enhanced Gap Filling with Evaluation: {brief_name}")
     print(f"📋 Brief length: {len(brief_content)} characters")
@@ -580,13 +559,23 @@ if __name__ == "__main__":
     print("4. compare_briefs_with_enhanced_evaluation(brief_names, n_versions) - Multi-brief evaluation (NEW)")
     print("5. main(brief_names) - Original dimension extraction")
     
+    # Get available briefs for examples
+    available_briefs = list(get_available_brief_files().keys())
+    
+    if not available_briefs:
+        print("⚠️ No brief files found - skipping examples")
+        exit()
+    
+    first_brief = available_briefs[0]
+    test_briefs = available_briefs[:2] if len(available_briefs) >= 2 else [first_brief]
+    
     # Example 1: Single brief gap filling
     print(f"\n{'='*60}")
     print("EXAMPLE 1: Single Brief Gap Filling")
     print(f"{'='*60}")
     
     try:
-        result = gap_fill_brief('ballantine_poland')
+        result = gap_fill_brief(first_brief)
         print("✅ Single brief gap filling completed!")
     except Exception as e:
         print(f"❌ Single brief example failed: {e}")
@@ -597,7 +586,7 @@ if __name__ == "__main__":
     print(f"{'='*60}")
     
     try:
-        comparison_result = compare_briefs_with_gap_filling(['abs_china', 'ballantine_poland'])
+        comparison_result = compare_briefs_with_gap_filling(test_briefs)
         print("✅ Multiple brief comparison completed!")
     except Exception as e:
         print(f"❌ Multiple brief example failed: {e}")
@@ -608,7 +597,7 @@ if __name__ == "__main__":
     print(f"{'='*80}")
     
     try:
-        enhanced_result = gap_fill_brief_with_evaluation('ballantine_poland', n_versions=3)
+        enhanced_result = gap_fill_brief_with_evaluation(first_brief, n_versions=3)
         print("✅ Enhanced gap filling with evaluation completed!")
         print(f"🏆 Best score achieved: {enhanced_result['evaluation_summary']['best_score']:.2f}")
         print(f"📁 Top 3 results saved to: {len(enhanced_result['saved_files'])} files")
@@ -622,7 +611,7 @@ if __name__ == "__main__":
     
     try:
         enhanced_comparison = compare_briefs_with_enhanced_evaluation(
-            ['abs_china', 'ballantine_poland'], n_versions=3
+            test_briefs, n_versions=3
         )
         print("✅ Enhanced multi-brief comparison completed!")
         

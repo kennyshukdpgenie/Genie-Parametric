@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "total_briefs_processed": 1,
+    "brief_names": [
+      "abc_china_prompt"
+    ],
+    "brief_folder": "files/brief",
+    "analysis_timestamp": "2025-06-11T15:36:19.531109"
+  },
+  "briefs": {
+    "abc_china_prompt": {
+      "dimensions": [
+        "```\nFeatures",
+        "City",
+        "Background elements",
+        "People skin color",
+        "Number max of people",
+        "Wardrobe",
+        "Highlighted Activities",
+        "What are the people exactly doing",
+        "Foreground",
+        "Location",
+        "Mood Lighting",
+        "Moment of the day",
+        "Objects",
+        "Camera Angle\n```"
+      ],
+      "dimension_count": 14,
+      "brief_content_length": 2756,
+      "source_file": "files\\brief\\abc_china_prompt.docx"
+    }
+  },
+  "all_dimensions": [
+    "Background elements",
+    "Camera Angle\n```",
+    "City",
+    "Foreground",
+    "Highlighted Activities",
+    "Location",
+    "Moment of the day",
+    "Mood Lighting",
+    "Number max of people",
+    "Objects",
+    "People skin color",
+    "Wardrobe",
+    "What are the people exactly doing",
+    "```\nFeatures"
+  ],
+  "dimension_frequency": {
+    "```\nFeatures": 1,
+    "City": 1,
+    "Background elements": 1,
+    "People skin color": 1,
+    "Number max of people": 1,
+    "Wardrobe": 1,
+    "Highlighted Activities": 1,
+    "What are the people exactly doing": 1,
+    "Foreground": 1,
+    "Location": 1,
+    "Mood Lighting": 1,
+    "Moment of the day": 1,
+    "Objects": 1,
+    "Camera Angle\n```": 1
+  },
+  "summary": {
+    "total_unique_dimensions": 14,
+    "successful_briefs": 1,
+    "failed_briefs": 0,
+    "average_dimensions_per_brief": 14.0,
+    "most_common_dimensions": [
+      [
+        "```\nFeatures",
+        1
+      ],
+      [
+        "City",
+        1
+      ],
+      [
+        "Background elements",
+        1
+      ],
+      [
+        "People skin color",
+        1
+      ],
+      [
+        "Number max of people",
+        1
+      ],
+      [
+        "Wardrobe",
+        1
+      ],
+      [
+        "Highlighted Activities",
+        1
+      ],
+      [
+        "What are the people exactly doing",
+        1
+      ],
+      [
+        "Foreground",
+        1
+      ],
+      [
+        "Location",
+        1
+      ]
+    ],
+    "dimensions_appearing_in_all_briefs": [
+      "```\nFeatures",
+      "City",
+      "Background elements",
+      "People skin color",
+      "Number max of people",
+      "Wardrobe",
+      "Highlighted Activities",
+      "What are the people exactly doing",
+      "Foreground",
+      "Location",
+      "Mood Lighting",
+      "Moment of the day",
+      "Objects",
+      "Camera Angle\n```"
+    ]
+  }
+}

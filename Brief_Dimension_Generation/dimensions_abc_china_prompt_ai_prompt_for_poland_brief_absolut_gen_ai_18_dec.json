@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "total_briefs_processed": 3,
+    "brief_names": [
+      "abc_china_prompt",
+      "ai_prompt_for_poland",
+      "brief_absolut_gen_ai_18_dec"
+    ],
+    "brief_folder": "files/brief",
+    "analysis_timestamp": "2025-06-11T15:36:27.643204"
+  },
+  "briefs": {
+    "abc_china_prompt": {
+      "dimensions": [
+        "```\nFeatures",
+        "City",
+        "Background elements",
+        "People skin color",
+        "Number max of people",
+        "Wardrobe",
+        "Highlighted Activities",
+        "What are the people exactly doing",
+        "Foreground",
+        "Location",
+        "Mood Lighting",
+        "Moment of the day",
+        "Objects",
+        "Camera Angle\n```"
+      ],
+      "dimension_count": 14,
+      "brief_content_length": 2756,
+      "source_file": "files\\brief\\abc_china_prompt.docx"
+    },
+    "ai_prompt_for_poland": {
+      "dimensions": [
+        "```\nMain Subject",
+        "Contents",
+        "Garnish",
+        "Steam",
+        "Bottle",
+        "Placement",
+        "Details",
+        "Background",
+        "Mountains",
+        "Sky",
+        "Snow",
+        "Table Setting",
+        "Additional Elements",
+        "Style and Mood",
+        "Resolution",
+        "Format",
+        "Dimensions",
+        "Target Audience",
+        "Deadline\n```"
+      ],
+      "dimension_count": 19,
+      "brief_content_length": 3022,
+      "source_file": "files\\brief\\AI Prompt for Poland.docx"
+    },
+    "brief_absolut_gen_ai_18_dec": {
+      "dimensions": [
+        "Here is the list of core parametric dimensions in CSV format:  \n\n```\nScope",
+        "Phases",
+        "Evaluation",
+        "Timings",
+        "Channels",
+        "Formats",
+        "Outputs",
+        "Objective",
+        "Key Focus",
+        "Audience",
+        "Execution",
+        "Setting",
+        "Colors",
+        "Lighting",
+        "Bottle Presence",
+        "Number of Drinks",
+        "Background Elements",
+        "Text Space",
+        "Photography Style",
+        "Brand Consistency\n```"
+      ],
+      "dimension_count": 20,
+      "brief_content_length": 3922,
+      "source_file": "files\\brief\\Brief Absolut Gen AI 18 Dec.docx"
+    }
+  },
+  "all_dimensions": [
+    "Additional Elements",
+    "Audience",
+    "Background",
+    "Background Elements",
+    "Background elements",
+    "Bottle",
+    "Bottle Presence",
+    "Brand Consistency\n```",
+    "Camera Angle\n```",
+    "Channels",
+    "City",
+    "Colors",
+    "Contents",
+    "Deadline\n```",
+    "Details",
+    "Dimensions",
+    "Evaluation",
+    "Execution",
+    "Foreground",
+    "Format",
+    "Formats",
+    "Garnish",
+    "Here is the list of core parametric dimensions in CSV format:  \n\n```\nScope",
+    "Highlighted Activities",
+    "Key Focus",
+    "Lighting",
+    "Location",
+    "Moment of the day",
+    "Mood Lighting",
+    "Mountains",
+    "Number max of people",
+    "Number of Drinks",
+    "Objective",
+    "Objects",
+    "Outputs",
+    "People skin color",
+    "Phases",
+    "Photography Style",
+    "Placement",
+    "Resolution",
+    "Setting",
+    "Sky",
+    "Snow",
+    "Steam",
+    "Style and Mood",
+    "Table Setting",
+    "Target Audience",
+    "Text Space",
+    "Timings",
+    "Wardrobe",
+    "What are the people exactly doing",
+    "```\nFeatures",
+    "```\nMain Subject"
+  ],
+  "dimension_frequency": {
+    "```\nFeatures": 1,
+    "City": 1,
+    "Background elements": 1,
+    "People skin color": 1,
+    "Number max of people": 1,
+    "Wardrobe": 1,
+    "Highlighted Activities": 1,
+    "What are the people exactly doing": 1,
+    "Foreground": 1,
+    "Location": 1,
+    "Mood Lighting": 1,
+    "Moment of the day": 1,
+    "Objects": 1,
+    "Camera Angle\n```": 1,
+    "```\nMain Subject": 1,
+    "Contents": 1,
+    "Garnish": 1,
+    "Steam": 1,
+    "Bottle": 1,
+    "Placement": 1,
+    "Details": 1,
+    "Background": 1,
+    "Mountains": 1,
+    "Sky": 1,
+    "Snow": 1,
+    "Table Setting": 1,
+    "Additional Elements": 1,
+    "Style and Mood": 1,
+    "Resolution": 1,
+    "Format": 1,
+    "Dimensions": 1,
+    "Target Audience": 1,
+    "Deadline\n```": 1,
+    "Here is the list of core parametric dimensions in CSV format:  \n\n```\nScope": 1,
+    "Phases": 1,
+    "Evaluation": 1,
+    "Timings": 1,
+    "Channels": 1,
+    "Formats": 1,
+    "Outputs": 1,
+    "Objective": 1,
+    "Key Focus": 1,
+    "Audience": 1,
+    "Execution": 1,
+    "Setting": 1,
+    "Colors": 1,
+    "Lighting": 1,
+    "Bottle Presence": 1,
+    "Number of Drinks": 1,
+    "Background Elements": 1,
+    "Text Space": 1,
+    "Photography Style": 1,
+    "Brand Consistency\n```": 1
+  },
+  "summary": {
+    "total_unique_dimensions": 53,
+    "successful_briefs": 3,
+    "failed_briefs": 0,
+    "average_dimensions_per_brief": 17.666666666666668,
+    "most_common_dimensions": [
+      [
+        "```\nFeatures",
+        1
+      ],
+      [
+        "City",
+        1
+      ],
+      [
+        "Background elements",
+        1
+      ],
+      [
+        "People skin color",
+        1
+      ],
+      [
+        "Number max of people",
+        1
+      ],
+      [
+        "Wardrobe",
+        1
+      ],
+      [
+        "Highlighted Activities",
+        1
+      ],
+      [
+        "What are the people exactly doing",
+        1
+      ],
+      [
+        "Foreground",
+        1
+      ],
+      [
+        "Location",
+        1
+      ]
+    ],
+    "dimensions_appearing_in_all_briefs": []
+  }
+}

@@ -10,11 +10,12 @@ import os
 sys.path.append(os.getcwd())
 
 def test_brief_dimension_generation():
-    """Test the Brief_Dimension_Generation main function with ballantine_poland"""
+    """Test the Brief_Dimension_Generation main function with actual brief files"""
     
     try:
         # Import the main function and utilities
-        from Brief_Dimension_Generation.main import main, list_available_briefs, AVAILABLE_BRIEFS
+        from Brief_Dimension_Generation.main import main
+        from Brief_Dimension_Generation.document_parser import list_available_briefs, get_available_brief_files
         
         print("=== Brief Dimension Generation Test ===")
         
@@ -22,16 +23,16 @@ def test_brief_dimension_generation():
         print("\n1. Checking available briefs...")
         list_available_briefs()
         
-        # Test with ballantine_poland brief
-        brief_to_test = "ballantine_poland"
-        print(f"\n2. Testing with: {brief_to_test}")
+        # Get available briefs from files
+        available_briefs = get_available_brief_files()
         
-        if brief_to_test not in AVAILABLE_BRIEFS:
-            print(f"❌ Brief '{brief_to_test}' not found!")
-            print("Available briefs:")
-            for brief_name in AVAILABLE_BRIEFS.keys():
-                print(f"  - {brief_name}")
+        # Test with first available brief
+        if not available_briefs:
+            print("❌ No brief files found!")
             return False
+            
+        brief_to_test = list(available_briefs.keys())[0]  # Use first available brief
+        print(f"\n2. Testing with: {brief_to_test}")
         
         # Run the analysis with single brief
         print(f"\n3. Running dimension extraction on [{brief_to_test}]...")
@@ -68,15 +69,22 @@ def test_brief_dimension_generation():
         return False
 
 def test_multiple_briefs():
-    """Test with multiple briefs including ballantine_poland"""
+    """Test with multiple briefs"""
     
     try:
         from Brief_Dimension_Generation.main import main
+        from Brief_Dimension_Generation.document_parser import get_available_brief_files
         
         print("\n=== Multiple Briefs Test ===")
         
-        # Test with multiple briefs
-        test_briefs = ["ballantine_poland", "abs_china", "codigo"]
+        # Get available briefs and test with first 3
+        available_briefs = get_available_brief_files()
+        test_briefs = list(available_briefs.keys())[:3]  # Test with first 3 available
+        
+        if len(test_briefs) < 2:
+            print("⚠️ Not enough briefs for multiple brief test, skipping...")
+            return True
+        
         print(f"Testing with multiple briefs: {test_briefs}")
         
         results = main(test_briefs)
@@ -121,11 +129,17 @@ def test_imports():
         return False
     
     try:
-        from Brief_Dimension_Generation.briefs import ballantine_poland
-        print("✅ briefs module imported successfully")
-        print(f"📄 ballantine_poland brief length: {len(ballantine_poland)} characters")
+        from Brief_Dimension_Generation.document_parser import load_brief_content, get_available_brief_files
+        available_briefs = get_available_brief_files()
+        if available_briefs:
+            first_brief_name = list(available_briefs.keys())[0]
+            brief_content = load_brief_content(first_brief_name)
+            print("✅ document parser imported and working successfully")
+            print(f"📄 Sample brief '{first_brief_name}' length: {len(brief_content)} characters")
+        else:
+            print("⚠️ No brief files found for testing")
     except ImportError as e:
-        print(f"❌ briefs import failed: {e}")
+        print(f"❌ document parser import failed: {e}")
         return False
     
     return True
