@@ -1,0 +1,1049 @@
+{
+  "metadata": {
+    "source_pdf": "Skrewball Brand World.pdf",
+    "total_chunks_processed": 23,
+    "dimensions_analyzed": [
+      "Campaign Theme",
+      "Marketing Objectives",
+      "Universal Consumer Challenge",
+      "Local Consumer Challenge (Market-Specific)",
+      "Brand Context/Heritage",
+      "Campaign Ambition/Scope",
+      "Target Audience (Strategic Segment)",
+      "Audience Demographics/Behavior",
+      "Single-Minded Message",
+      "Tone of Voice",
+      "Key Deliverables/Assets",
+      "Success Metrics (KPIs)",
+      "Mandatory Channels/Formats",
+      "Representation/Inclusivity Guidelines",
+      "Cultural Adaptation Requirements"
+    ],
+    "analysis_type": "TF-IDF with stop word removal",
+    "stop_words_used": 191,
+    "nltk_available": false,
+    "analysis_timestamp": "2025-06-07T21:13:41.529315"
+  },
+  "chunk_data": [
+    {
+      "Campaign Theme": "Breaking the rules, having fun, and enjoying every moment with a glass of Skrewball in hand",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "Skrewball Brand World is the essence, attitude, and how the brand presents itself—visually, verbally, and experientially. It is the core of the identity, ensuring recognition of the spirit of the unexpected.",
+      "Campaign Ambition/Scope": "To stand out while staying true to the brand's charmingly mischievous nature and connecting meaningfully with every corner of the world.",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "Here’s to breaking the rules, having fun, and enjoying every moment with a glass of Skrewball in hand.",
+      "Tone of Voice": "Irreverent and charmingly mischievous",
+      "Key Deliverables/Assets": "Signature Skrewball logo, visual elements",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "A lawyer and a chemist created Skrewball, inspired by a peanut butter-loving restauranteur to create nutty advertising.",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "One who is not afraid to break away from the crowd and be their own individual.",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "Skrews the Usual and invites everyone to join in the fun.",
+      "Tone of Voice": "Irreverent",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    },
+    {
+      "Campaign Theme": "",
+      "Marketing Objectives": "",
+      "Universal Consumer Challenge": "",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "",
+      "Campaign Ambition/Scope": "",
+      "Target Audience (Strategic Segment)": "",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "",
+      "Tone of Voice": "",
+      "Key Deliverables/Assets": "",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "",
+      "Cultural Adaptation Requirements": ""
+    }
+  ],
+  "tfidf_analysis": {
+    "Campaign Theme": {
+      "raw_word_count": 8,
+      "unique_words": 8,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "breaking": 0.125,
+        "rules": 0.125,
+        "fun": 0.125,
+        "enjoying": 0.125,
+        "moment": 0.125,
+        "glass": 0.125,
+        "skrewball": 0.125,
+        "hand": 0.125
+      },
+      "tfidf_scores": {
+        "breaking": 0.20117973905426254,
+        "rules": 0.20117973905426254,
+        "fun": 0.20117973905426254,
+        "enjoying": 0.20117973905426254,
+        "moment": 0.20117973905426254,
+        "glass": 0.20117973905426254,
+        "skrewball": 0.13732653608351372,
+        "hand": 0.20117973905426254
+      },
+      "probability_distribution": {
+        "breaking": 0.13016416235388026,
+        "rules": 0.13016416235388026,
+        "fun": 0.13016416235388026,
+        "enjoying": 0.13016416235388026,
+        "moment": 0.13016416235388026,
+        "glass": 0.13016416235388026,
+        "skrewball": 0.08885086352283816,
+        "hand": 0.13016416235388026
+      },
+      "top_10_tfidf": [
+        [
+          "breaking",
+          0.20117973905426254
+        ],
+        [
+          "rules",
+          0.20117973905426254
+        ],
+        [
+          "fun",
+          0.20117973905426254
+        ],
+        [
+          "enjoying",
+          0.20117973905426254
+        ],
+        [
+          "moment",
+          0.20117973905426254
+        ],
+        [
+          "glass",
+          0.20117973905426254
+        ],
+        [
+          "hand",
+          0.20117973905426254
+        ],
+        [
+          "skrewball",
+          0.13732653608351372
+        ]
+      ]
+    },
+    "Marketing Objectives": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Universal Consumer Challenge": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Local Consumer Challenge (Market-Specific)": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Brand Context/Heritage": {
+      "raw_word_count": 29,
+      "unique_words": 27,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "skrewball": 0.06896551724137931,
+        "brand": 0.06896551724137931,
+        "world": 0.034482758620689655,
+        "essence": 0.034482758620689655,
+        "attitude": 0.034482758620689655,
+        "presents": 0.034482758620689655,
+        "itself": 0.034482758620689655,
+        "visually": 0.034482758620689655,
+        "verbally": 0.034482758620689655,
+        "experientially": 0.034482758620689655,
+        "core": 0.034482758620689655,
+        "identity": 0.034482758620689655,
+        "ensuring": 0.034482758620689655,
+        "recognition": 0.034482758620689655,
+        "spirit": 0.034482758620689655,
+        "unexpected": 0.034482758620689655,
+        "lawyer": 0.034482758620689655,
+        "chemist": 0.034482758620689655,
+        "created": 0.034482758620689655,
+        "inspired": 0.034482758620689655,
+        "peanut": 0.034482758620689655,
+        "butter": 0.034482758620689655,
+        "loving": 0.034482758620689655,
+        "restauranteur": 0.034482758620689655,
+        "create": 0.034482758620689655,
+        "nutty": 0.034482758620689655,
+        "advertising": 0.034482758620689655
+      },
+      "tfidf_scores": {
+        "skrewball": 0.07576636473573171,
+        "brand": 0.11099571809890346,
+        "world": 0.05549785904945173,
+        "essence": 0.0694794145014574,
+        "attitude": 0.0694794145014574,
+        "presents": 0.0694794145014574,
+        "itself": 0.0694794145014574,
+        "visually": 0.0694794145014574,
+        "verbally": 0.0694794145014574,
+        "experientially": 0.0694794145014574,
+        "core": 0.0694794145014574,
+        "identity": 0.0694794145014574,
+        "ensuring": 0.0694794145014574,
+        "recognition": 0.0694794145014574,
+        "spirit": 0.0694794145014574,
+        "unexpected": 0.0694794145014574,
+        "lawyer": 0.0694794145014574,
+        "chemist": 0.0694794145014574,
+        "created": 0.0694794145014574,
+        "inspired": 0.0694794145014574,
+        "peanut": 0.0694794145014574,
+        "butter": 0.0694794145014574,
+        "loving": 0.0694794145014574,
+        "restauranteur": 0.0694794145014574,
+        "create": 0.0694794145014574,
+        "nutty": 0.0694794145014574,
+        "advertising": 0.0694794145014574
+      },
+      "probability_distribution": {
+        "skrewball": 0.03967311655092064,
+        "brand": 0.058120065231454854,
+        "world": 0.029060032615727427,
+        "essence": 0.03638111606674571,
+        "attitude": 0.03638111606674571,
+        "presents": 0.03638111606674571,
+        "itself": 0.03638111606674571,
+        "visually": 0.03638111606674571,
+        "verbally": 0.03638111606674571,
+        "experientially": 0.03638111606674571,
+        "core": 0.03638111606674571,
+        "identity": 0.03638111606674571,
+        "ensuring": 0.03638111606674571,
+        "recognition": 0.03638111606674571,
+        "spirit": 0.03638111606674571,
+        "unexpected": 0.03638111606674571,
+        "lawyer": 0.03638111606674571,
+        "chemist": 0.03638111606674571,
+        "created": 0.03638111606674571,
+        "inspired": 0.03638111606674571,
+        "peanut": 0.03638111606674571,
+        "butter": 0.03638111606674571,
+        "loving": 0.03638111606674571,
+        "restauranteur": 0.03638111606674571,
+        "create": 0.03638111606674571,
+        "nutty": 0.03638111606674571,
+        "advertising": 0.03638111606674571
+      },
+      "top_10_tfidf": [
+        [
+          "brand",
+          0.11099571809890346
+        ],
+        [
+          "skrewball",
+          0.07576636473573171
+        ],
+        [
+          "essence",
+          0.0694794145014574
+        ],
+        [
+          "attitude",
+          0.0694794145014574
+        ],
+        [
+          "presents",
+          0.0694794145014574
+        ],
+        [
+          "itself",
+          0.0694794145014574
+        ],
+        [
+          "visually",
+          0.0694794145014574
+        ],
+        [
+          "verbally",
+          0.0694794145014574
+        ],
+        [
+          "experientially",
+          0.0694794145014574
+        ],
+        [
+          "core",
+          0.0694794145014574
+        ]
+      ]
+    },
+    "Campaign Ambition/Scope": {
+      "raw_word_count": 11,
+      "unique_words": 11,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "stand": 0.09090909090909091,
+        "staying": 0.09090909090909091,
+        "true": 0.09090909090909091,
+        "brand": 0.09090909090909091,
+        "charmingly": 0.09090909090909091,
+        "mischievous": 0.09090909090909091,
+        "nature": 0.09090909090909091,
+        "connecting": 0.09090909090909091,
+        "meaningfully": 0.09090909090909091,
+        "corner": 0.09090909090909091,
+        "world": 0.09090909090909091
+      },
+      "tfidf_scores": {
+        "stand": 0.18317300186747862,
+        "staying": 0.18317300186747862,
+        "true": 0.18317300186747862,
+        "brand": 0.14631253749400913,
+        "charmingly": 0.14631253749400913,
+        "mischievous": 0.14631253749400913,
+        "nature": 0.18317300186747862,
+        "connecting": 0.18317300186747862,
+        "meaningfully": 0.18317300186747862,
+        "corner": 0.18317300186747862,
+        "world": 0.14631253749400913
+      },
+      "probability_distribution": {
+        "stand": 0.09808664591903618,
+        "staying": 0.09808664591903618,
+        "true": 0.09808664591903618,
+        "brand": 0.07834836964168668,
+        "charmingly": 0.07834836964168668,
+        "mischievous": 0.07834836964168668,
+        "nature": 0.09808664591903618,
+        "connecting": 0.09808664591903618,
+        "meaningfully": 0.09808664591903618,
+        "corner": 0.09808664591903618,
+        "world": 0.07834836964168668
+      },
+      "top_10_tfidf": [
+        [
+          "stand",
+          0.18317300186747862
+        ],
+        [
+          "staying",
+          0.18317300186747862
+        ],
+        [
+          "true",
+          0.18317300186747862
+        ],
+        [
+          "nature",
+          0.18317300186747862
+        ],
+        [
+          "connecting",
+          0.18317300186747862
+        ],
+        [
+          "meaningfully",
+          0.18317300186747862
+        ],
+        [
+          "corner",
+          0.18317300186747862
+        ],
+        [
+          "brand",
+          0.14631253749400913
+        ],
+        [
+          "charmingly",
+          0.14631253749400913
+        ],
+        [
+          "mischievous",
+          0.14631253749400913
+        ]
+      ]
+    },
+    "Target Audience (Strategic Segment)": {
+      "raw_word_count": 7,
+      "unique_words": 7,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "one": 0.14285714285714285,
+        "afraid": 0.14285714285714285,
+        "break": 0.14285714285714285,
+        "away": 0.14285714285714285,
+        "crowd": 0.14285714285714285,
+        "own": 0.14285714285714285,
+        "individual": 0.14285714285714285
+      },
+      "tfidf_scores": {
+        "one": 0.2878432886488949,
+        "afraid": 0.2878432886488949,
+        "break": 0.2878432886488949,
+        "away": 0.2878432886488949,
+        "crowd": 0.2878432886488949,
+        "own": 0.2878432886488949,
+        "individual": 0.2878432886488949
+      },
+      "probability_distribution": {
+        "one": 0.14285714285714288,
+        "afraid": 0.14285714285714288,
+        "break": 0.14285714285714288,
+        "away": 0.14285714285714288,
+        "crowd": 0.14285714285714288,
+        "own": 0.14285714285714288,
+        "individual": 0.14285714285714288
+      },
+      "top_10_tfidf": [
+        [
+          "one",
+          0.2878432886488949
+        ],
+        [
+          "afraid",
+          0.2878432886488949
+        ],
+        [
+          "break",
+          0.2878432886488949
+        ],
+        [
+          "away",
+          0.2878432886488949
+        ],
+        [
+          "crowd",
+          0.2878432886488949
+        ],
+        [
+          "own",
+          0.2878432886488949
+        ],
+        [
+          "individual",
+          0.2878432886488949
+        ]
+      ]
+    },
+    "Audience Demographics/Behavior": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Single-Minded Message": {
+      "raw_word_count": 15,
+      "unique_words": 14,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "here": 0.06666666666666667,
+        "breaking": 0.06666666666666667,
+        "rules": 0.06666666666666667,
+        "fun": 0.13333333333333333,
+        "enjoying": 0.06666666666666667,
+        "moment": 0.06666666666666667,
+        "glass": 0.06666666666666667,
+        "skrewball": 0.06666666666666667,
+        "hand": 0.06666666666666667,
+        "skrews": 0.06666666666666667,
+        "usual": 0.06666666666666667,
+        "invites": 0.06666666666666667,
+        "everyone": 0.06666666666666667,
+        "join": 0.06666666666666667
+      },
+      "tfidf_scores": {
+        "here": 0.134326868036151,
+        "breaking": 0.10729586082894002,
+        "rules": 0.10729586082894002,
+        "fun": 0.21459172165788004,
+        "enjoying": 0.10729586082894002,
+        "moment": 0.10729586082894002,
+        "glass": 0.10729586082894002,
+        "skrewball": 0.07324081924454065,
+        "hand": 0.10729586082894002,
+        "skrews": 0.134326868036151,
+        "usual": 0.134326868036151,
+        "invites": 0.134326868036151,
+        "everyone": 0.134326868036151,
+        "join": 0.134326868036151
+      },
+      "probability_distribution": {
+        "here": 0.07730736142127137,
+        "breaking": 0.0617505642272323,
+        "rules": 0.0617505642272323,
+        "fun": 0.1235011284544646,
+        "enjoying": 0.0617505642272323,
+        "moment": 0.0617505642272323,
+        "glass": 0.0617505642272323,
+        "skrewball": 0.042151317654513465,
+        "hand": 0.0617505642272323,
+        "skrews": 0.07730736142127137,
+        "usual": 0.07730736142127137,
+        "invites": 0.07730736142127137,
+        "everyone": 0.07730736142127137,
+        "join": 0.07730736142127137
+      },
+      "top_10_tfidf": [
+        [
+          "fun",
+          0.21459172165788004
+        ],
+        [
+          "here",
+          0.134326868036151
+        ],
+        [
+          "skrews",
+          0.134326868036151
+        ],
+        [
+          "usual",
+          0.134326868036151
+        ],
+        [
+          "invites",
+          0.134326868036151
+        ],
+        [
+          "everyone",
+          0.134326868036151
+        ],
+        [
+          "join",
+          0.134326868036151
+        ],
+        [
+          "breaking",
+          0.10729586082894002
+        ],
+        [
+          "rules",
+          0.10729586082894002
+        ],
+        [
+          "enjoying",
+          0.10729586082894002
+        ]
+      ]
+    },
+    "Tone of Voice": {
+      "raw_word_count": 4,
+      "unique_words": 3,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "irreverent": 0.5,
+        "charmingly": 0.25,
+        "mischievous": 0.25
+      },
+      "tfidf_scores": {
+        "irreverent": 1.0074515102711323,
+        "charmingly": 0.40235947810852507,
+        "mischievous": 0.40235947810852507
+      },
+      "probability_distribution": {
+        "irreverent": 0.5559363916924878,
+        "charmingly": 0.22203180415375617,
+        "mischievous": 0.22203180415375617
+      },
+      "top_10_tfidf": [
+        [
+          "irreverent",
+          1.0074515102711323
+        ],
+        [
+          "charmingly",
+          0.40235947810852507
+        ],
+        [
+          "mischievous",
+          0.40235947810852507
+        ]
+      ]
+    },
+    "Key Deliverables/Assets": {
+      "raw_word_count": 5,
+      "unique_words": 5,
+      "removed_stop_words": 0,
+      "tf_scores": {
+        "signature": 0.2,
+        "skrewball": 0.2,
+        "logo": 0.2,
+        "visual": 0.2,
+        "elements": 0.2
+      },
+      "tfidf_scores": {
+        "signature": 0.40298060410845293,
+        "skrewball": 0.21972245773362198,
+        "logo": 0.40298060410845293,
+        "visual": 0.40298060410845293,
+        "elements": 0.40298060410845293
+      },
+      "probability_distribution": {
+        "signature": 0.2200102267595,
+        "skrewball": 0.119959092962,
+        "logo": 0.2200102267595,
+        "visual": 0.2200102267595,
+        "elements": 0.2200102267595
+      },
+      "top_10_tfidf": [
+        [
+          "signature",
+          0.40298060410845293
+        ],
+        [
+          "logo",
+          0.40298060410845293
+        ],
+        [
+          "visual",
+          0.40298060410845293
+        ],
+        [
+          "elements",
+          0.40298060410845293
+        ],
+        [
+          "skrewball",
+          0.21972245773362198
+        ]
+      ]
+    },
+    "Success Metrics (KPIs)": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Mandatory Channels/Formats": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Representation/Inclusivity Guidelines": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    },
+    "Cultural Adaptation Requirements": {
+      "raw_word_count": 0,
+      "unique_words": 0,
+      "removed_stop_words": 0,
+      "tf_scores": {},
+      "tfidf_scores": {},
+      "probability_distribution": {},
+      "top_10_tfidf": []
+    }
+  },
+  "summary": {
+    "dimensions_with_data": 7,
+    "total_unique_meaningful_words": 75,
+    "most_active_dimensions": [
+      [
+        "Brand Context/Heritage",
+        27
+      ],
+      [
+        "Single-Minded Message",
+        14
+      ],
+      [
+        "Campaign Ambition/Scope",
+        11
+      ],
+      [
+        "Campaign Theme",
+        8
+      ],
+      [
+        "Target Audience (Strategic Segment)",
+        7
+      ]
+    ],
+    "average_unique_words_per_dimension": 5.0
+  }
+}

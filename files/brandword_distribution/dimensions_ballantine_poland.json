@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "total_briefs_processed": 1,
+    "brief_names": [
+      "ballantine_poland"
+    ],
+    "analysis_timestamp": "2025-06-07T19:52:54.476081"
+  },
+  "briefs": {
+    "ballantine_poland": {
+      "dimensions": [
+        "```\nMain Subject",
+        "Contents",
+        "Garnish",
+        "Steam",
+        "Bottle",
+        "Placement",
+        "Details",
+        "Background",
+        "Mountains",
+        "Sky",
+        "Snow",
+        "Table Setting",
+        "Table",
+        "Additional Elements",
+        "Style and Mood",
+        "Warm and Inviting",
+        "Natural and Realistic",
+        "Cozy Winter Atmosphere",
+        "Technical Specifications",
+        "Resolution",
+        "Format",
+        "Dimensions",
+        "Target Audience",
+        "Demographics",
+        "Purpose",
+        "Deadline\n```"
+      ],
+      "dimension_count": 26,
+      "brief_content_length": 3024
+    }
+  },
+  "all_dimensions": [
+    "Additional Elements",
+    "Background",
+    "Bottle",
+    "Contents",
+    "Cozy Winter Atmosphere",
+    "Deadline\n```",
+    "Demographics",
+    "Details",
+    "Dimensions",
+    "Format",
+    "Garnish",
+    "Mountains",
+    "Natural and Realistic",
+    "Placement",
+    "Purpose",
+    "Resolution",
+    "Sky",
+    "Snow",
+    "Steam",
+    "Style and Mood",
+    "Table",
+    "Table Setting",
+    "Target Audience",
+    "Technical Specifications",
+    "Warm and Inviting",
+    "```\nMain Subject"
+  ],
+  "dimension_frequency": {
+    "```\nMain Subject": 1,
+    "Contents": 1,
+    "Garnish": 1,
+    "Steam": 1,
+    "Bottle": 1,
+    "Placement": 1,
+    "Details": 1,
+    "Background": 1,
+    "Mountains": 1,
+    "Sky": 1,
+    "Snow": 1,
+    "Table Setting": 1,
+    "Table": 1,
+    "Additional Elements": 1,
+    "Style and Mood": 1,
+    "Warm and Inviting": 1,
+    "Natural and Realistic": 1,
+    "Cozy Winter Atmosphere": 1,
+    "Technical Specifications": 1,
+    "Resolution": 1,
+    "Format": 1,
+    "Dimensions": 1,
+    "Target Audience": 1,
+    "Demographics": 1,
+    "Purpose": 1,
+    "Deadline\n```": 1
+  },
+  "summary": {
+    "total_unique_dimensions": 26,
+    "average_dimensions_per_brief": 26.0,
+    "most_common_dimensions": [
+      [
+        "```\nMain Subject",
+        1
+      ],
+      [
+        "Contents",
+        1
+      ],
+      [
+        "Garnish",
+        1
+      ],
+      [
+        "Steam",
+        1
+      ],
+      [
+        "Bottle",
+        1
+      ],
+      [
+        "Placement",
+        1
+      ],
+      [
+        "Details",
+        1
+      ],
+      [
+        "Background",
+        1
+      ],
+      [
+        "Mountains",
+        1
+      ],
+      [
+        "Sky",
+        1
+      ]
+    ],
+    "dimensions_appearing_in_all_briefs": [
+      "```\nMain Subject",
+      "Contents",
+      "Garnish",
+      "Steam",
+      "Bottle",
+      "Placement",
+      "Details",
+      "Background",
+      "Mountains",
+      "Sky",
+      "Snow",
+      "Table Setting",
+      "Table",
+      "Additional Elements",
+      "Style and Mood",
+      "Warm and Inviting",
+      "Natural and Realistic",
+      "Cozy Winter Atmosphere",
+      "Technical Specifications",
+      "Resolution",
+      "Format",
+      "Dimensions",
+      "Target Audience",
+      "Demographics",
+      "Purpose",
+      "Deadline\n```"
+    ]
+  }
+}

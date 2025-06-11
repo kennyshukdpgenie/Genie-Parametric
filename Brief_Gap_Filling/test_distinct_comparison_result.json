@@ -1,0 +1,25 @@
+{
+  "filled_table": {
+    "Campaign Theme": "Premium Scotch Whisky Heritage",
+    "Target Audience": "Affluent whisky enthusiasts aged 30-55",
+    "Creative Concept": "Authentic ballantine scottish heritage",
+    "Key Message": "True ballantine craftsmanship since 1827",
+    "Tone and Style": "Premium confident ballantine brand voice"
+  },
+  "source_tracking": {
+    "Campaign Theme": "deepseek_extraction",
+    "Target Audience": "deepseek_extraction",
+    "Creative Concept": "deepseek_extraction",
+    "Key Message": "deepseek_extraction",
+    "Tone and Style": "deepseek_extraction"
+  },
+  "metadata": {
+    "brief_text": "\nWe need to create a premium campaign for Ballantines Scotch Whisky targeting affluent consumers in Poland. \nThe campaign should emphasize the brand's Scottish heritage and craftsmanship traditions da...",
+    "dimension_count": 5,
+    "filled_count": 5,
+    "extraction_timestamp": "2025-06-11T11:45:51.486187",
+    "brandworld_file": "Brand_World/BALLANTINES-IBP-7_distinct_words.json",
+    "approach_used": "distinct_words",
+    "gap_filling_method": "Tarik's distinct words"
+  }
+}

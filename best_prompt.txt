@@ -1,0 +1,10 @@
+{
+  "raw": false,
+  "prompt": "A premium white golf glove rests elegantly on the immaculate putting green of an Arizona golf course, its supple leather gently creased, suggesting recent play. Nearby, a pristine golf ball sits in quiet anticipation, poised for a precise putt. Scattered across the smooth green, deep-red cranberries glisten in the warm sunlight, their glossy surfaces catching the golden hues of the late afternoon. Some rest naturally on the grass, while others appear freshly tumbled, adding a vibrant contrast against the lush green backdrop.\n\nA bold promotional image showcases a tall, slim 355 mL (12 fl oz) Absolut Vodka Cranberry Sparkling can, positioned prominently. Its glossy red-to-pink gradient finish gleams under the sunlight, with condensation droplets enhancing its refreshing appeal. The can design features a subtle Absolut Vodka bottle silhouette, bold navy blue ‘ABSOLUT’ branding, and the Ocean Spray logo with its signature dark blue oval and white wave design. Surrounding the can, fresh cranberries rest on the putting green, reinforcing the natural, premium ingredients.\n\nThe deep blue background, adorned with floating cranberries, enhances the crisp and refreshing aesthetic, while large, bold white uppercase text reads:\n“MADE WITH PREMIUM ABSOLUT VODKA & REAL CRANBERRY JUICE FROM OCEAN SPRAY,” emphasizing the superior quality.\n\nThe late afternoon sun casts a golden glow across the scene, creating elongated, soft-edged shadows that stretch over the manicured green, adding depth and elegance. The composition effortlessly merges sophistication, relaxation, and precision, embodying the perfect harmony of sport and leisure, elevated by the rich, natural vibrance of fresh cranberries.",
+  "num_images": 4,
+  "finetune_id": "afe58fc6-9c2b-49ce-abed-667a8e3a3893",
+  "aspect_ratio": "16:9",
+  "output_format": "jpeg",
+  "finetune_strength": 1.1,
+  "enable_safety_checker": true
+}

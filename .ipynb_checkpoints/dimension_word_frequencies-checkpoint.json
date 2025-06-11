@@ -1,0 +1,188 @@
+{
+  "Campaign Theme": {
+    "frequency_count": {
+      "becoming": 3,
+      "true": 3,
+      "lifestyle": 3,
+      "brand": 3
+    },
+    "probability_distribution": {
+      "becoming": 0.25,
+      "true": 0.25,
+      "lifestyle": 0.25,
+      "brand": 0.25
+    },
+    "total_words": 12,
+    "unique_words": 4
+  },
+  "Marketing Objectives": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Universal Consumer Challenge": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Local Consumer Challenge (Market-Specific)": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Brand Context/Heritage": {
+    "frequency_count": {
+      "ballantine": 3,
+      "has": 3,
+      "always": 3,
+      "stood": 3,
+      "for": 3,
+      "brand": 2,
+      "with": 2,
+      "attitude": 2,
+      "going": 1,
+      "beyond": 1,
+      "product": 1,
+      "inspire": 1,
+      "people": 3,
+      "their": 3,
+      "true": 3,
+      "selves": 3,
+      "inspiring": 2
+    },
+    "probability_distribution": {
+      "ballantine": 0.07692307692307693,
+      "has": 0.07692307692307693,
+      "always": 0.07692307692307693,
+      "stood": 0.07692307692307693,
+      "for": 0.07692307692307693,
+      "brand": 0.05128205128205128,
+      "with": 0.05128205128205128,
+      "attitude": 0.05128205128205128,
+      "going": 0.02564102564102564,
+      "beyond": 0.02564102564102564,
+      "product": 0.02564102564102564,
+      "inspire": 0.02564102564102564,
+      "people": 0.07692307692307693,
+      "their": 0.07692307692307693,
+      "true": 0.07692307692307693,
+      "selves": 0.07692307692307693,
+      "inspiring": 0.05128205128205128
+    },
+    "total_words": 39,
+    "unique_words": 17
+  },
+  "Campaign Ambition/Scope": {
+    "frequency_count": {
+      "reflect": 3,
+      "the": 3,
+      "vision": 3,
+      "brand": 3,
+      "with": 2,
+      "attitude": 2,
+      "and": 1,
+      "inspire": 1,
+      "people": 1,
+      "their": 1,
+      "true": 1,
+      "selves": 1,
+      "ballantine": 1,
+      "lifestyle": 1,
+      "that": 2,
+      "goes": 2,
+      "beyond": 2,
+      "product": 2
+    },
+    "probability_distribution": {
+      "reflect": 0.09375,
+      "the": 0.09375,
+      "vision": 0.09375,
+      "brand": 0.09375,
+      "with": 0.0625,
+      "attitude": 0.0625,
+      "and": 0.03125,
+      "inspire": 0.03125,
+      "people": 0.03125,
+      "their": 0.03125,
+      "true": 0.03125,
+      "selves": 0.03125,
+      "ballantine": 0.03125,
+      "lifestyle": 0.03125,
+      "that": 0.0625,
+      "goes": 0.0625,
+      "beyond": 0.0625,
+      "product": 0.0625
+    },
+    "total_words": 32,
+    "unique_words": 18
+  },
+  "Target Audience (Strategic Segment)": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Audience Demographics/Behavior": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Single-Minded Message": {
+    "frequency_count": {
+      "inspire": 3,
+      "people": 3,
+      "their": 3,
+      "true": 3,
+      "selves": 3
+    },
+    "probability_distribution": {
+      "inspire": 0.2,
+      "people": 0.2,
+      "their": 0.2,
+      "true": 0.2,
+      "selves": 0.2
+    },
+    "total_words": 15,
+    "unique_words": 5
+  },
+  "Tone of Voice": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Key Deliverables/Assets": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Success Metrics (KPIs)": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Mandatory Channels/Formats": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Representation/Inclusivity Guidelines": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  },
+  "Cultural Adaptation Requirements": {
+    "frequency_count": {},
+    "probability_distribution": {},
+    "total_words": 0,
+    "unique_words": 0
+  }
+}

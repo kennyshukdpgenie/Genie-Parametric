@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-07T20:53:57.750595",
+    "brief_length": 99,
+    "total_dimensions": 15,
+    "brandworld_source": "Skrewball Brand World_analysis.json",
+    "extraction_summary": {
+      "deepseek_filled": 3,
+      "brandworld_filled": 8,
+      "no_data": 4
+    }
+  },
+  "brief_content": "\nCreate a whiskey campaign that's fun and playful.\nTarget young adults who like to try new things.\n",
+  "dimension_list": [
+    "Campaign Theme",
+    "Marketing Objectives",
+    "Universal Consumer Challenge",
+    "Local Consumer Challenge (Market-Specific)",
+    "Brand Context/Heritage",
+    "Campaign Ambition/Scope",
+    "Target Audience (Strategic Segment)",
+    "Audience Demographics/Behavior",
+    "Single-Minded Message",
+    "Tone of Voice",
+    "Key Deliverables/Assets",
+    "Success Metrics (KPIs)",
+    "Mandatory Channels/Formats",
+    "Representation/Inclusivity Guidelines",
+    "Cultural Adaptation Requirements"
+  ],
+  "filled_table": {
+    "dimensions": {
+      "Campaign Theme": "fun and playful",
+      "Marketing Objectives": "glance, first, appetite, glance, first",
+      "Universal Consumer Challenge": "comes, out, and, new, usual",
+      "Local Consumer Challenge (Market-Specific)": "",
+      "Brand Context/Heritage": "are, not, carves, peanut, white",
+      "Campaign Ambition/Scope": "that, for, usual, invitation, that",
+      "Target Audience (Strategic Segment)": "young adults who like to try new things",
+      "Audience Demographics/Behavior": "",
+      "Single-Minded Message": "ignored, leave, let, skrew, not",
+      "Tone of Voice": "fun and playful",
+      "Key Deliverables/Assets": "drips, reusable, body, lockup, items",
+      "Success Metrics (KPIs)": "",
+      "Mandatory Channels/Formats": "",
+      "Representation/Inclusivity Guidelines": "inclusive, positive, and, want, energetic",
+      "Cultural Adaptation Requirements": "and, make, literal, explicit, make"
+    },
+    "sources": {
+      "Campaign Theme": "deepseek_extraction",
+      "Marketing Objectives": "brandworld_probability",
+      "Universal Consumer Challenge": "brandworld_probability",
+      "Local Consumer Challenge (Market-Specific)": "no_data_available",
+      "Brand Context/Heritage": "brandworld_probability",
+      "Campaign Ambition/Scope": "brandworld_probability",
+      "Target Audience (Strategic Segment)": "deepseek_extraction",
+      "Audience Demographics/Behavior": "no_data_available",
+      "Single-Minded Message": "brandworld_probability",
+      "Tone of Voice": "deepseek_extraction",
+      "Key Deliverables/Assets": "brandworld_probability",
+      "Success Metrics (KPIs)": "no_data_available",
+      "Mandatory Channels/Formats": "no_data_available",
+      "Representation/Inclusivity Guidelines": "brandworld_probability",
+      "Cultural Adaptation Requirements": "brandworld_probability"
+    }
+  },
+  "detailed_analysis": {
+    "dimensions_with_data": [
+      "Campaign Theme",
+      "Marketing Objectives",
+      "Universal Consumer Challenge",
+      "Brand Context/Heritage",
+      "Campaign Ambition/Scope",
+      "Target Audience (Strategic Segment)",
+      "Single-Minded Message",
+      "Tone of Voice",
+      "Key Deliverables/Assets",
+      "Representation/Inclusivity Guidelines",
+      "Cultural Adaptation Requirements"
+    ],
+    "empty_dimensions": [
+      "Local Consumer Challenge (Market-Specific)",
+      "Audience Demographics/Behavior",
+      "Success Metrics (KPIs)",
+      "Mandatory Channels/Formats"
+    ],
+    "source_breakdown": {
+      "deepseek_extraction": [
+        "Campaign Theme",
+        "Target Audience (Strategic Segment)",
+        "Tone of Voice"
+      ],
+      "brandworld_probability": [
+        "Marketing Objectives",
+        "Universal Consumer Challenge",
+        "Brand Context/Heritage",
+        "Campaign Ambition/Scope",
+        "Single-Minded Message",
+        "Key Deliverables/Assets",
+        "Representation/Inclusivity Guidelines",
+        "Cultural Adaptation Requirements"
+      ],
+      "no_data_available": [
+        "Local Consumer Challenge (Market-Specific)",
+        "Audience Demographics/Behavior",
+        "Success Metrics (KPIs)",
+        "Mandatory Channels/Formats"
+      ]
+    }
+  }
+}
